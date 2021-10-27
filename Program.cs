@@ -1,27 +1,34 @@
 ﻿using System;
 
-namespace КомароваЗадание4
+namespace КомароваЗадание5
 {
     class Program
     {
         static void Main(string[] args)
         {
-            double x;
-            Console.WriteLine(Math.Round(value: x = Metod, digits: 3));
-            Console.ReadKey();
-        }
-        static double Metod
-        {
-            get
-            {
-                double x;
-                double q = Math.Sqrt(3);
-                double w = Math.Sqrt(2);
-                double e = Math.Sqrt(5);
-                double r = Math.Sqrt(11);
-                double t = Math.Sqrt(7);
-                return x = ((q - w) / (q + w) + (e - q) / (e + q) + (r - t) / (r + t));
-            }
+            string text = Console.ReadLine();
+            text = text.Replace("a", "4");
+            text = text.Replace("e", "3");
+            text = text.Replace("i", "!");
+            text = text.Replace("q", "9");
+            text = text.Replace("b", "8");
+            text = text.Replace("f", "|=");
+            text = text.Replace("j", ")");
+            text = text.Replace("r", "|2");
+            text = text.Replace("z", "2");
+            text = text.Replace("c", "(");
+            text = text.Replace("g", "6");
+            text = text.Replace("k", "|<");
+            text = text.Replace("o", "0");
+            text = text.Replace("s", "5");
+            text = text.Replace("d", "|)");
+            text = text.Replace("h", "|-|");
+            text = text.Replace("l", "1");
+            text = text.Replace("p", "|>");
+            text = text.Replace("t", "7");
+            text = text.Replace("x", "><");
+            Console.WriteLine(text);
+
         }
     }
 }
