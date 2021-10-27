@@ -1,30 +1,21 @@
 ﻿using System;
 
-namespace kmrvvv
+namespace КомароваЗадание3
 {
     class Program
     {
         static void Main(string[] args)
         {
-            
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("Вот: слышится — а слов не слышу,");
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("Вот: близится — и тьмится вдруг…");
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Но знаю, с поля — или свыше —");
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("Тот звук — из сердца ли тот звук…");
+            Console.Write("Введите Х : ");
+            var x = double.Parse(Console.ReadLine());
+            Console.Write($"Если Х = {x} ,то Y= ");
+            double q = Math.Abs(x);
+            double w = Math.Tan(x);
+            double e = Math.Pow(w, 2);
+            double r = Math.Sin(e + 4);
+            Console.WriteLine(Math.Round((q + 2 * r) / (5.5 * x),3));
 
-            Console.ForegroundColor = ConsoleColor.Black;
-
-            
-
-
-
-
-
-
+            }
         }
     }
-}
+
