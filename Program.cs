@@ -1,30 +1,27 @@
 ﻿using System;
 
-namespace kmrvvv
+namespace КомароваЗадание4
 {
     class Program
     {
         static void Main(string[] args)
         {
-            
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("Вот: слышится — а слов не слышу,");
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("Вот: близится — и тьмится вдруг…");
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Но знаю, с поля — или свыше —");
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("Тот звук — из сердца ли тот звук…");
-
-            Console.ForegroundColor = ConsoleColor.Black;
-
-            
-
-
-
-
-
-
+            double x;
+            Console.WriteLine(Math.Round(value: x = Metod, digits: 3));
+            Console.ReadKey();
+        }
+        static double Metod
+        {
+            get
+            {
+                double x;
+                double q = Math.Sqrt(3);
+                double w = Math.Sqrt(2);
+                double e = Math.Sqrt(5);
+                double r = Math.Sqrt(11);
+                double t = Math.Sqrt(7);
+                return x = ((q - w) / (q + w) + (e - q) / (e + q) + (r - t) / (r + t));
+            }
         }
     }
 }
